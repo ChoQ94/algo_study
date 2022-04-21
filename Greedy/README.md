@@ -1,8 +1,6 @@
 # 그리드 문제
 
-# 절차
-
-## 1_coin.js
+## #1 1_coin.js
     ### 선택절차
         countList[count] = Math.floor(n/coin)
         위 코드를 이용하여 현재의 단위로 최적의 값을 구함
