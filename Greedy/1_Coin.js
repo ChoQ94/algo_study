@@ -12,11 +12,11 @@ function giveChange (n) {
     for(let coin of coinList) {
         countList[count] = Math.floor(n/coin) // 작거나 같은 수 반환
         n = n - countList[count] * coinList[count];
+        if(n===0) break;
         count++;
     }
     return countList;
 }
 
- let result = giveChange(1260);
- 
- console.log(`500원 : ${result[0]} , 100원 : ${result[1]} , 50원 : ${result[2]} , 10원 : ${result[3]}`);
+ let result = giveChange(1200);
+ console.log(`500원 : ${result[0]}개, 100원 : ${result[1]}개, 50원 : ${result[2]}개, 10원 : ${result[3]}개`);
