@@ -21,4 +21,4 @@ function solution(N){
     console.log('-1');
 }
 
-solution(18);
+solution(15);
