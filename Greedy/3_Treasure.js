@@ -13,7 +13,7 @@ function caculateS(count, numberA, numberB ){
     const result = numberA.reduce((acc, curr, index) => {
         return acc + curr * numberB[index];
       }, 0);
-      console.log(result);
+     console.log(result);
 }
 
 
