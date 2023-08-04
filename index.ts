@@ -39,8 +39,9 @@ function solution3(n, m, sections) {
   }
   return answer;
 }
+
 //
-// 코테에서 꼭 answer 값을 정의할 필요는 없다 정도 체크
+// 코테에서 꼭 answer 값을 정의할 필요는 없다 정도체크
 function solution4(k, score) {
   const stack: number[] = [];
   return score.reduce((a: number[], c: number) => {
